@@ -51,11 +51,4 @@ const PORT = process.env.PORT || 3030;
 
 app.listen(PORT).on('listening', () => {
     console.log(`Realtime server runnign on port ${PORT}`);
-})
-
-// app.service('ideas').create({
-//     text: 'Build a cool app',
-//     texh: 'Node.js',
-//     viewer: 'John Doe',
-//     time: moment().format('h:mm:ss a')
-// });
+});
