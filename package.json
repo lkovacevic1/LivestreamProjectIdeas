@@ -1,0 +1,26 @@
+{
+  "name": "livestreamprojectideas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkovacevic1/LivestreamProjectIdeas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lkovacevic1/LivestreamProjectIdeas/issues"
+  },
+  "homepage": "https://github.com/lkovacevic1/LivestreamProjectIdeas#readme",
+  "dependencies": {
+    "@feathersjs/express": "^4.5.15",
+    "@feathersjs/feathers": "^4.5.15",
+    "@feathersjs/socketio": "^4.5.15",
+    "moment": "^2.29.4"
+  }
+}
